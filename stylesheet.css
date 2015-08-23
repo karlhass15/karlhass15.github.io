@@ -2,6 +2,7 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   font-size: 35px;
   text-transform: uppercase;
+  box-shadow: 10px 10px 5px #888888;
 }
 img {
   position: absolute;
@@ -9,6 +10,7 @@ img {
   left: 500px;
   width: 220px;
   height:auto;
+  box-shadow: 10px 10px 5px #888888;
 }
 .nav a {
   color: blue;
