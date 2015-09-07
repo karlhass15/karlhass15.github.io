@@ -12,24 +12,38 @@ img {
   height:auto;
   box-shadow: 10px 10px 5px #888888;
 }
+
 .nav a {
   color: blue;
   font-size: 18px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
+  text-decoration: none;
+  list-style: none;
 }
+
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-image: url('http://home.earthlink.net/~hube02/images/puzzleback2a.gif');
+  background-color: #d3d3d3;
 }
-body {
-background-image: url('http://home.earthlink.net/~hube02/images/puzzleback2a.gif');
+ul {
+padding-top: 8px;
+margin-top: 1px;
 }
-h4 { 
-width:100%; height:1px; background: #fff 
+ul li {
+padding-bottom: 1px;
 }
-h4 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+h2 { 
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 18px;
+margin-bottom: 3px;
+}
+h3 { 
+width:1800px; height:1px; background: #fff;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 17px;
 }
 p {
   font-family: "Times New Roman", Times, serif;
@@ -37,4 +51,6 @@ p {
   font-size: 20px;
   font-weight: bold;
 }
-
+li {
+  width: 1800px;
+}
